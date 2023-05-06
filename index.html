@@ -7,20 +7,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100;200;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79b9c5f2b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>La Comarca</title>
+    <title>Black Room</title>
 </head>
 <body>
+
     <header>
-        <img class="logo" src="logo.png" alt="Logo Bar">
+        <img class="logo" src="logo.png" alt="Logo">
         <nav class="navbar">
             <ul>
-                <li><a href="">INICIO</a></li>
-                <li><a href="">RESERVA</a></li>
-                <li><a href="">MENU</a></li>
-                <li><a href="">CONTACTO</a></li>
+                <li><a href="">INICIO<i class="fa-solid fa-house"></i></a></li>
+                <li><a href="">EVENTOS<i class="fa-solid fa-music"></i></a></li>
+                <li><a href="">MÚSICA<i class="fa-solid fa-headphones"></i></a></li>
+                <li><a href="">REDES<i class="fa-solid fa-mobile-screen-button"></i></a></li>
             </ul>
         </nav>
+        <div class="busqueda">
+            <input typr="text" placeholder="Buscar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
     </header>
+
+    <main>
+
+        <section class="inicio">
+            <video class="video" autoplay loop muted>
+                <source src="video-fondo.mp4" type="video/mp4">
+            </video>
+            <div class="nombre-artista">
+                <h2>FRED AGAIN..  | LONDON</h2>
+                <p>La espera ha terminado. El superproductor británico Fred again.. debuta en la Black Room de Londres.</p>
+                <input class="boton-artista" type="submit" value="VER VIVO">  
+            </div>
+        </section>
+
+        <section class="sets">
+            <h2>NUESTROS SETS</h2>
+            <p>Visita nuestro canal de <a href="">Youtube</a> y disfruta de nuestros sets</p>
+            <div class="sets-imagenes">
+
+                <div class="contenedor-sets">
+                    <img class="imagen" src="https://muno.pl/wp-content/uploads/2021/09/Fot.-Lukasz-Leksowski-960x500.jpg" alt="D.DAN">
+                    <h3>D.DAN</h3>
+                    <p>Warsaw | Julio 2021 | 59 min</p>
+                </div>
+                <div class="contenedor-sets">
+                    <img class="imagen" src="https://boilerroom.tv/cdn-cgi/image/width=3150,height=1653,fit=cover,format=auto/https://videos.boilerroom.tv/assets/brutalism.jpeg" alt="BRUTALISMUS 3000">
+                    <h3>BRUTALISMUS 3000</h3>
+                    <p>London | Octubre 2021 | 61 min</p>
+                </div>
+                <div class="contenedor-sets">
+                    <img class="imagen" src="https://videos.boilerroom.tv/assets/PARTIBOI69___INDIA_TOUR_stash.jpg" alt="PARTIBOI69">
+                    <h3>PARTIBOI69</h3>
+                    <p>Bangalore | Abril 2023 | 60 min</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="presentacion">
+            <h2>¿QUIENES SOMOS?</h2>
+            <p><b>Black Room</b> es una plataforma <b>en línea</b> de difunsión musical que comisiona y retransmite sesiones de <b>música en vivo</b> por todo el mundo. Fue fundado en <b>Londres</b> (<b>R.U.</b>) en 2010, Black Room ahora presenta shows en alrededor de 100 ciudades, desde <b>Estocolmo</b> hasta <b>Shanghái</b>. Tienen operaciones regulares en <b>Londres</b>, <b>Ámsterdam</b>, <b>Nueva York</b>, <b>Berlín</b>, <b>Lisboa</b>, <b>São Paulo</b>, <b>Ciudad de México</b>, <b>Cracovia</b>, <b>Tokio</b>, <b>Sídney</b>, <b>Lima</b> y <b>Los Ángeles</b> y produce una media de 30 - 35 shows nuevos cada mes. Originalmente, su programación musical se centraba en <b>música electrónica</b> como <b>garage</b>, <b>house</b>, <b>techno</b> y <b>dub</b> pero rápidamente comenzó a incluir otros géneros como <b>grime</b>, <b>hip hop</b>, <b>clásico</b>, y <b>jazz</b>.</p>
+        </section>
+    </main>
+
 </body>
 </html>
