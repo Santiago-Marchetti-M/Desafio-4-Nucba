@@ -178,6 +178,7 @@ header {
 }
 #sets h2 {
     margin-top: 50px;
+    margin-bottom: 20px;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
@@ -190,7 +191,7 @@ header {
     font-size: 22px;
     font-weight: 800;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-top: 30px;
     letter-spacing: 3px;
     line-height: 40px;
@@ -268,14 +269,6 @@ header {
     letter-spacing: 5px;
     color: var(--color-rojo);
 }
-.contenedor-sets p {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    line-height: 40px;
-    margin-top: -10px;
-    color: var(--color-blanco);
-}
 .imagen {
     margin-top: 50px;
     width: 550px;
@@ -296,6 +289,8 @@ header {
     width: 100%;
     padding: 50px;
     background: var(--color-negro);
+    border-top: 3px solid var(--color-blanco);
+    border-bottom: 3px solid var(--color-blanco);
 }
 #presentacion h2 {
     font-size: 60px;
@@ -368,8 +363,9 @@ header {
     justify-content: space-evenly;
     max-width: 850px;
     background: var(--color-negro);
-    border: 3px solid var(--color-rojo);
+    border: 3px solid var(--color-blanco);
     border-radius: 50px;
+    box-shadow: 0px 0px 20px 3px rgba(255,70,85,1);
 }
 .texto {
     display: flex;
@@ -435,14 +431,99 @@ header {
 .video-contacto {
     display: flex;
     background: var(--color-negro);
-    border: 3px solid var(--color-rojo);
+    border: 3px solid var(--color-blanco);
     max-width: 850px;
+    box-shadow: 0px 0px 20px 3px rgba(255,70,85,1);
 }
 .video-contacto video {
     width: 100%;
 }
 
 /* FINAL CONTACTO */
+/* INICIO VENTAJAS */
+
+#ventajas {
+    width: 100%;
+    padding: 50px;
+    background: var(--color-negro);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+#ventajas h2 {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 10px;
+    color: var(--color-negro);
+    -webkit-text-stroke: 2.5px var(--color-rojo);
+}
+.ventajas-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0 50px 0;
+    gap: 100px;
+}
+.ventajas-cartas {
+    background: var(--color-carbon);
+    width: 750px;
+    height: 750px;
+    margin-top: 20px;
+    padding: 50px 30px 50px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid var(--color-blanco);
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 3px rgba(255,70,85,1);
+}
+.fa-headphones{
+    color: var(--color-rojo);
+    width: 300px;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    padding: 40px 40px 40px 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    border: 5px solid var(--color-blanco);
+    border-radius: 100%;
+}
+.fa-eye {
+    color: var(--color-rojo);
+    width: 300px;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    padding: 40px 30px 40px 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    border: 5px solid var(--color-blanco);
+    border-radius: 100%;
+}
+.ventajas-cartas h3 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 30px 0 30px 0;
+    padding-top: 10px;
+    color: var(--color-blanco);
+    text-shadow: 3px 3px 5px var(--color-rojo) ;
+    -webkit-text-stroke: 1.5px var(--color-negro);
+}
+.ventajas-cartas p {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 40px;
+    color: var(--color-blanco);
+}
+
+/* FINAL VENTAJAS */
 
 /* INICIO FOOTER */
 
