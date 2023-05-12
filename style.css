@@ -449,6 +449,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    border-top: 3px solid var(--color-blanco);
+    border-bottom: 3px solid var(--color-blanco);
 }
 #ventajas h2 {
     font-size: 60px;
