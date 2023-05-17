@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100;200;400;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/79b9c5f2b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
     <title>Boiler Room</title>
 </head>
 <body>
@@ -16,17 +17,20 @@
     <header>
         <img class="logo" src="logo.png" alt="Logo">
         <nav class="navbar">
-            <ul>
+            <label for="toggle-menu"><i class="fa-sharp fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="navbar-list">
                 <li><a href="">INICIO <i class="fa-solid fa-house"></i></a></li>
                 <li><a href="">EVENTOS <i class="fa-solid fa-music"></i></a></li>
                 <li><a href="">MÚSICA <i class="fa-solid fa-headphones"></i></a></li>
                 <li><a href="">REDES <i class="fa-solid fa-mobile-screen-button"></i></a></li>
             </ul>
-        </nav>
         <div class="busqueda">
             <input typr="text" placeholder="Buscar">
             <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
+        </div>    
+        </nav>
+        
     </header>
 
     <main>
@@ -35,6 +39,7 @@
             <video class="video" autoplay loop muted>
                 <source src="video-fondo.mp4" type="video/mp4">
             </video>
+            <img class="imagen-fondo" src="https://i.ytimg.com/vi/c0-hvjV2A5Y/maxresdefault.jpg" alt="">
             <div class="nombre-artista">
                 <h2>FRED AGAIN..  | LONDON</h2>
                 <p>La espera ha terminado. El superproductor británico Fred again.. debuta en la Boiler Room de Londres.</p>
